@@ -1,3 +1,6 @@
+# the coding exercises in task one and two were sourced from codewars (codewars.com)
+# the debugging exercise in task three is sourced from: https://humanitiesprogramming.github.io/exercises/python-debugging/
+
 import asyncio
 import time
 from src.llama_index import run_llama

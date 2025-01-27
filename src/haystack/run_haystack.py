@@ -1,3 +1,5 @@
+# this code was created based on this tutorial: https://haystack.deepset.ai/cookbook/swarm
+
 from io import StringIO
 import os
 import random
