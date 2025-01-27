@@ -1,0 +1,11 @@
+jsonschema
+haystack-ai
+pygments
+transformers[agents]
+openai
+asyncio
+python-dotenv
+llama-index
+traceback2
+pydantic
+GitPython
