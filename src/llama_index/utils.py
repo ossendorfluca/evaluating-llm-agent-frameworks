@@ -26,7 +26,6 @@ def create_schema_from_function(
     fields = {}
     params = signature(func).parameters
     for param_name in params:
-        # TODO: Very hacky way to remove the ctx parameter from the signature
         if param_name == "ctx":
             continue
 
@@ -89,7 +88,6 @@ class FunctionToolWithContext(FunctionTool):
             name = name or fn_to_parse.__name__
             docstring = fn_to_parse.__doc__
 
-            # TODO: Very hacky way to remove the ctx parameter from the signature
             signature_str = str(signature(fn_to_parse))
             signature_str = signature_str.replace(
                 "ctx: llama_index.core.workflow.context.Context, ", ""
