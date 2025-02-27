@@ -1,4 +1,4 @@
-# Choosing the Right Framework for Custom LLM Agents: Comparing Haystack, LLamaIndex, and Hugging Face Transformers
+# Choosing the Right Framework for Custom LLM Agents: Comparing Haystack, LlamaIndex, and Hugging Face Transformers Agents
 
 This repository is part of a seminar at the University of Leipzig. The main research objective is to compare three open-source frameworks for building custom LLM agents. The frameworks examined are ([Haystack](https://haystack.deepset.ai/)), ([LlamaIndex](https://docs.llamaindex.ai/en/stable/)) and ([Hugging Face Transformers Agents](https://huggingface.co/)). The project is structured as follows: evaluate.py contains the main evaluation pipeline for testing and comparing the frameworks. The code for all custom agents can be found within the src directory and the respective framework directory. For saving LLM-generated code during testing, it is essential that every framework folder contains an "examples" folder. All requirements can be installed by executing "pip install -r requirements.txt". A valid openai API key needs to be stored in an env variable ("OPENAI_API_KEY").
 
